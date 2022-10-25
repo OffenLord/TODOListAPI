@@ -1,2 +1,13 @@
-package ru.todo.api;public class Main {
+package ru.todo.api;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class Main {
+
+    public static void main(String[] args) {
+        SpringApplication.run(Main.class, args);
+    }
+
 }
